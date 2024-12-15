@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "3d310b0e276a8360eff73567775305ac"
+name = "Wishlist"
+handle = "wishlist-635"
+application_url = "https://tough-organizational-magnificent-wants.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "devteststore47.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://tough-organizational-magnificent-wants.trycloudflare.com/auth/callback",
+  "https://tough-organizational-magnificent-wants.trycloudflare.com/auth/shopify/callback",
+  "https://tough-organizational-magnificent-wants.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-10"
+
+[pos]
+embedded = false
